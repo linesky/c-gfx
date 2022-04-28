@@ -1,5 +1,5 @@
 extern "C"
-'fbc -lib gx.bas
+'
 public sub screens(x as integer,y as integer,colors as integer)export 
 	screenres x,y,colors
 end sub
