@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
-//gcc  gx.c -L ./ -l gx -lfb -lfbgfx -o gx
+//bash gx.sh gxx.c
 void screens(int x ,int y,int colors) ;
 void box(int x ,int y,int w ,int h,int colors);
 void scroff();
